@@ -52,6 +52,7 @@ body {
 }
 .area-buttons p {
   margin: 0;
+  margin-top: 10px;
 }
 .buttons {
   display: flex;
@@ -74,7 +75,7 @@ body {
   font-weight: bold;
   height: 500px;
   border: none;
-  max-width: 900px;
+  max-width: 100%;
 }
 /* Area de encriptado */
 .area-encriptado {
@@ -110,6 +111,7 @@ body {
   flex-direction: column;
   width: 360px;
   height: 100%;
+  padding: 10px;
 }
 .text-encriptado p {
   margin: 10px;
@@ -156,9 +158,12 @@ body {
     font-size: 0.75rem;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 360px) {
   body {
     width: auto;
     padding: 16px;
+  }
+  .text-encriptado {
+    width: 100%;
   }
 }
