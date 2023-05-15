@@ -113,6 +113,7 @@ body {
 }
 .text-encriptado p {
   margin: 10px;
+  text-align: left;
 }
 .button-area-encriptado {
   display: none;
