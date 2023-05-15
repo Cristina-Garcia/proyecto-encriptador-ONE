@@ -111,11 +111,10 @@ body {
   flex-direction: column;
   width: 360px;
   height: 100%;
-  padding: 10px;
+  justify-content: flex-start;
 }
 .text-encriptado p {
   margin: 10px;
-  text-align: left;
 }
 .button-area-encriptado {
   display: none;
@@ -157,13 +156,15 @@ body {
   .area-buttons p {
     font-size: 0.75rem;
   }
+  .text-encriptado {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
 }
 @media screen and (max-width: 360px) {
   body {
     width: auto;
     padding: 16px;
-  }
-  .text-encriptado {
-    width: 100%;
   }
 }
